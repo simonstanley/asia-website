@@ -1,9 +1,9 @@
 <nav class="sidebar-nav">
   <ul>
-    <li><a href="/painting.html">Painting</a></li>
-    <li><a href="/tarot.html">Tarot</a></li>
-    <li><a href="/sketchbook.html">Sketchbook</a></li>
-    <li><a href="/dreams.html">Dreams</a></li>
-    <li><a href="/dark_moods.html">Dark Moods</a></li>
+    <li><a href="/painting.html" class="{% if page.url == '/painting.html' %}active{% endif %}">Painting</a></li>
+    <li><a href="/tarot.html" class="{% if page.url == '/tarot.html' %}active{% endif %}">Tarot</a></li>
+    <li><a href="/sketchbook.html" class="{% if page.url == '/sketchbook.html' %}active{% endif %}">Sketchbook</a></li>
+    <li><a href="/dreams.html" class="{% if page.url == '/dreams.html' %}active{% endif %}">Dreams</a></li>
+    <li><a href="/dark_moods.html" class="{% if page.url == '/dark_moods.html' %}active{% endif %}">Dark Moods</a></li>
   </ul>
 </nav>

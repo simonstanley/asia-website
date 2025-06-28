@@ -3,11 +3,10 @@
   align-items: flex-start; /* optional: aligns items to the top */
 }
 
-.sidebar-nav {
-  width: 200px; /* adjust as needed */
-  margin-right: 32px; /* space between nav and grid */
+.gallery-content {
+  width: 100%
 }
 
 .grid-container {
-  flex: 1 1 0;
+    width: 80% !important;
 }

@@ -33,7 +33,7 @@ nav a {
   color: #919191;
   padding-bottom: 8px;
   border-bottom: 2px solid transparent;
-  transition: color 0.3s, border-bottom 0.3s;;
+  transition: color 0.3s, border-bottom 0.3s;
 }
 
 nav a:hover {

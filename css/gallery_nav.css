@@ -1,10 +1,7 @@
 .sidebar-nav {
   display: block;
-  clear: both; /* ensures it starts below floated elements, if any */
-  margin-top: 0; /* adjust as needed */
-  width: 180px;
-  height: 100vh;
-  padding-top: 40px;
+  clear: both;
+  padding-left: 20px;
 }
 
 .sidebar-nav ul {
@@ -15,19 +12,25 @@
     flex-direction: column;
 }
 
-.sidebar-nav li {
-  margin-bottom: 24px;
-}
-
 .sidebar-nav a {
-  text-decoration: none;
-  font-size: 1.1em;
   padding: 8px 16px;
   display: block;
-  border-radius: 4px;
-  transition: background 0.2s;
+  font-family: 'marcellus', serif;
+  font-size: 1.1rem;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: #919191;
+  border-bottom: 2px solid transparent;
+  transition: color 0.3s, border-bottom 0.3s;
+  text-transform: uppercase;
 }
 
 .sidebar-nav a:hover {
-  background: #444;
+  color: black;
+}
+
+.sidebar-nav a.active {
+  color: black;
+  border-bottom: 3px solid black;
 }
