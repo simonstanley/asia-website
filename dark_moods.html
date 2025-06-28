@@ -1,0 +1,19 @@
+---
+layout: main
+title: Dark Moods
+images:
+    - images/gallery/dark_moods/street.avif
+    - images/gallery/dark_moods/me_time.avif
+    - images/gallery/dark_moods/pollination_season.avif
+    - images/gallery/dark_moods/nightlife.avif
+    - images/gallery/dark_moods/yaldbaoth.avif
+---
+
+<div class="gallery-layout">
+    {% include gallery_nav.html %}
+    <div class="gallery-content">
+        {% include gallery_title.html %}
+        {% include image_grid.html images=page.images %}
+        {% include lightbox.html images=page.images %}
+    </div>
+</div>

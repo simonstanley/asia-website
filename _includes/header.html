@@ -2,10 +2,17 @@
     <h1>Asia Cybele Art</h1>
     <nav>
         <ul>
-        <li><a href="#home" class="active">Home</a></li>
-        <li><a href="#gallery">Gallery</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="/" {% if page.url == "/" %}class="active"{% endif %}>Home</a></li>
+        <li>
+            <a href="/painting.html"
+               {% if page.url == "/painting.html" or page.url == "/tarot.html" or page.url == "/sketchbook.html" or page.url == "/dreams.html" or page.url == "/dark_moods.html" %}
+               class="active"
+               {% endif %}>
+            Gallery
+            </a>
+        </li>
+        <li><a href="/about.html" {% if page.url == "/about.html" %}class="active"{% endif %}>About</a></li>
+        <li><a href="/contact.html" {% if page.url == "/contact.html" %}class="active"{% endif %}>Contact</a></li>
         </ul>
     </nav>
 </header>

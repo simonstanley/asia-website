@@ -1,0 +1,19 @@
+---
+layout: main
+title: Tarot
+images:
+    - images/gallery/tarot/street.avif
+    - images/gallery/tarot/me_time.avif
+    - images/gallery/tarot/pollination_season.avif
+    - images/gallery/tarot/nightlife.avif
+    - images/gallery/tarot/yaldbaoth.avif
+---
+
+<div class="gallery-layout">
+    {% include gallery_nav.html %}
+    <div class="gallery-content">
+        {% include gallery_title.html %}
+        {% include image_grid.html images=page.images %}
+        {% include lightbox.html images=page.images %}
+    </div>
+</div>

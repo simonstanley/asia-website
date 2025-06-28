@@ -1,0 +1,19 @@
+---
+layout: main
+title: Painting
+images:
+    - images/gallery/painting/street.avif
+    - images/gallery/painting/me_time.avif
+    - images/gallery/painting/pollination_season.avif
+    - images/gallery/painting/nightlife.avif
+    - images/gallery/painting/yaldbaoth.avif
+---
+
+<div class="gallery-layout">
+    {% include gallery_nav.html %}
+    <div class="gallery-content">
+        {% include gallery_title.html %}
+        {% include image_grid.html images=page.images %}
+        {% include lightbox.html images=page.images %}
+    </div>
+</div>

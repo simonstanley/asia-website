@@ -1,0 +1,19 @@
+---
+layout: main
+title: Sketchbook
+images:
+    - images/gallery/sketchbook/street.avif
+    - images/gallery/sketchbook/me_time.avif
+    - images/gallery/sketchbook/pollination_season.avif
+    - images/gallery/sketchbook/nightlife.avif
+    - images/gallery/sketchbook/yaldbaoth.avif
+---
+
+<div class="gallery-layout">
+    {% include gallery_nav.html %}
+    <div class="gallery-content">
+        {% include gallery_title.html %}
+        {% include image_grid.html images=page.images %}
+        {% include lightbox.html images=page.images %}
+    </div>
+</div>
