@@ -1,0 +1,9 @@
+<div class="grid-container">
+    <div class="image-grid">
+        {% for image in include.images %}
+        <div class="image-item">
+            <img src="{{ image }}" onclick="openModal();currentSlide({{ forloop.index }})">
+        </div>
+        {% endfor %}
+    </div>
+</div>

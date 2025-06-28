@@ -1,0 +1,46 @@
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 1rem 6.5rem 1rem;
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 8px;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+nav ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  font-family: 'marcellus', serif;
+  font-size: 1.1rem;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: #919191;
+  padding-bottom: 8px;
+  border-bottom: 2px solid transparent;
+  transition: color 0.3s, border-bottom 0.3s;;
+}
+
+nav a:hover {
+  color: black;
+}
+
+nav a.active {
+  color: black;
+  border-bottom: 3px solid black;
+}

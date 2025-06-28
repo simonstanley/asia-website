@@ -1,0 +1,30 @@
+<div id="myModal" class="modal">
+  <span class="close" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+    <div class="slide-container">
+        {% for image in include.images %}
+        <div class="slides">
+            <img src={{ image }}>
+        </div>
+        {% endfor %}
+
+        <!-- Next/previous controls -->
+        <div class="chevron">
+            <a class="prev" onclick="plusSlides(-1)">
+                <img src="/images/icons/chevron.png" alt="Previous" style="transform: scaleX(-1);">
+            </a>
+        </div>
+        <div class="chevron">
+            <a class="next" onclick="plusSlides(1)">
+                <img src="/images/icons/chevron.png" alt="Next">
+            </a>
+        </div>
+    </div>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption">TEST</p>
+    </div>
+
+  </div>
+</div>

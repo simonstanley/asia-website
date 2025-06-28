@@ -1,0 +1,6 @@
+# Site settings
+title: Asia Cybele Art
+img_dir: /images
+
+# Build settings
+markdown: kramdown
