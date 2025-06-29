@@ -1,10 +1,6 @@
 .gallery-layout {
   display: flex;
-  align-items: flex-start; /* optional: aligns items to the top */
-}
-
-.gallery-content {
-  width: 100%
+  justify-content: center;
 }
 
 .grid-container {

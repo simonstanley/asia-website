@@ -43,3 +43,9 @@ header h2 {
   text-align: center;
   text-transform: uppercase;
 }
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+}

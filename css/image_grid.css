@@ -47,13 +47,12 @@
     .image-grid {
         gap: 15px;
     }
+    .grid-container {
+        width: 70%;
+    }
 }
 
 @media (max-width: 600px) {
-    body {
-        padding: 10px;
-    }
-
     .grid-container {
         width: 80%;
     }

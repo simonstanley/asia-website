@@ -2,6 +2,7 @@
   display: block;
   clear: both;
   padding-left: 20px;
+  padding-bottom: 30px;
 }
 
 .sidebar-nav ul {
@@ -32,4 +33,11 @@
 .sidebar-nav a.active {
   color: black;
   border-bottom: 3px solid black;
+}
+
+@media (max-width: 600px) {
+    .sidebar-nav a {
+        font-size: 0.7rem;
+        padding: 0;
+    }
 }
