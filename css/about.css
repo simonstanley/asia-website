@@ -1,0 +1,19 @@
+.about-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0 40px 0;
+}
+
+.about-layout p {
+    font-family: 'marcellus', serif;
+    font-size: 1.2rem;
+    margin-block-start: 0;
+    margin-block-end: 8px;
+}
