@@ -6,3 +6,8 @@
 .grid-container {
     width: 80% !important;
 }
+
+.gallery-title {
+    text-align: center;
+    margin: 20px;
+}
