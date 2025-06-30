@@ -9,5 +9,54 @@
 
 .gallery-title {
     text-align: center;
-    margin: 20px;
+    margin: 0 20px;
+    max-width: 800px;
+}
+
+.gallery-title h1 {
+    margin-top: 0;
+}
+
+.sidebar-nav {
+  display: block;
+  clear: both;
+  padding-left: 20px;
+  padding-bottom: 30px;
+}
+
+.sidebar-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-nav a {
+  padding: 8px 16px;
+  display: block;
+  font-size: 1.1rem;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: #919191;
+  border-bottom: 2px solid transparent;
+  transition: color 0.3s, border-bottom 0.3s;
+  text-transform: uppercase;
+}
+
+.sidebar-nav a:hover {
+  color: black;
+}
+
+.sidebar-nav a.active {
+  color: black;
+  border-bottom: 3px solid black;
+}
+
+@media (max-width: 600px) {
+    .sidebar-nav a {
+        font-size: 0.7rem;
+        padding: 0;
+    }
 }
