@@ -25,3 +25,22 @@
     text-align: center;
     padding: 0px 20px 0px 20px;
 }
+
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icons .icon-link {
+    display: block;
+    margin: 0 15px;
+}
+
+.social-icons img {
+    width: 40px;
+    max-width: 100%;
+    border: none;
+    display: block;
+}

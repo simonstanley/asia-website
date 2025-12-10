@@ -44,6 +44,23 @@ header h2 {
   text-transform: uppercase;
 }
 
+header h1 a {
+  font-family: "Pirata One", system-ui;
+  color: #919191;
+  text-decoration: none;
+}
+
+header h1 a {
+  font-family: "Pirata One", system-ui;
+  color: #919191;
+  text-decoration: none;
+  transition: color 0.3s
+}
+
+header h1 a:hover {
+  color: black;
+}
+
 @media (max-width: 600px) {
     body {
         padding: 10px;
